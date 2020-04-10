@@ -12,5 +12,5 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.collect {|i| array[i].to_s}
+  array.collect {|i| i.to_s}
 end 
