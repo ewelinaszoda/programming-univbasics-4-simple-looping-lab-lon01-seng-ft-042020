@@ -12,5 +12,6 @@ def output_array(array)
 end
 
 def return_string_array(array)
-  array.each {|i| i.to_s}
+  #each destructives the array, collect creates new one 
+  array.collect {|i| i.to_s} 
 end 
